@@ -2,11 +2,10 @@ export function drawDistribution(results) {
 
     const ctx = document.getElementById("distributionChart");
 
-    // Create histogram bins
     const bins = {};
 
     results.forEach(value => {
-        const key = value.toFixed(1); // group by 0.1 (0.4, 0.5, etc.)
+        const key = value.toFixed(1); 
         bins[key] = (bins[key] || 0) + 1;
     });
 
