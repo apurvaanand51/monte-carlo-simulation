@@ -2,35 +2,41 @@ export let probabilityHistory = [];
 export let experimentResults = [];
 
 export function simulate(totalFlip, totalExp) {
+
+    probabilityHistory = [];
+    experimentResults = [];
+
     for (let j = 1; j <= totalExp; j++) {
-        let head = 0;
-        let tail = 0;
-        let flipCount = 0;
+
+        let heads = 0;
+        let history = [];
 
         for (let i = 1; i <= totalFlip; i++) {
-            flipCount++;
-            let rand = Math.random();
-            if (rand < 0.5) {
-                // console.log("HEAD");
-                head++;
-            } else if (rand >= 0.5) {
-                // console.log("TAIL");
-                tail++;
+
+            const flip = Math.random() < 0.5 ? 1 : 0;
+
+            if (flip === 1) {
+                heads++;
             }
-            let liveProbability = head / flipCount;
-            probabilityHistory.push(liveProbability);
-            // console.log("Current Probability: " + liveProbability);
+
+            const runningProbability = heads / i;
+
+            // Store history ONLY for the first experiment (for convergence chart)
+            if (j === 1) {
+                history.push(runningProbability);
+            }
+
         }
 
-        let probability = head / totalFlip;
-        experimentResults.push(probability);
+        const finalProbability = heads / totalFlip;
 
-        // console.log("Total Flips: " + totalFlip);
-        // console.log("Heads: " + head);
-        // console.log("Tails: " + tail);
-        // console.log("Probability: " + probability);
-        // console.log("Probability History: " + JSON.stringify(probabilityHistory));
+        experimentResults.push(finalProbability);
+
+        if (j === 1) {
+            probabilityHistory = history;
+        }
+
     }
-    // console.log(experimentResults);
+
     return experimentResults;
 }
