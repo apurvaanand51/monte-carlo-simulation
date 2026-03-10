@@ -21,7 +21,6 @@ export function simulate(totalFlip, totalExp) {
 
             const runningProbability = heads / i;
 
-            // Store history ONLY for the first experiment (for convergence chart)
             if (j === 1) {
                 history.push(runningProbability);
             }
