@@ -7,3 +7,5 @@ In this project we've tried to determine the probablity of getting heads in a co
 ## Charts that are generated from the obtained data - 
 
  - Monte Carlo Distribution Chart - It shows the frequency of appearance of a probability in overall coin flips. And as we can see the frequency is often more around 0.5 which staisfies the theoretical estimation.
+
+ - Convergance Chart - It shows that how the result stabalizes around 0.5 as the size of sample increases. According to Law of large numbers, as the input sample increases, output sample approaches the actual value.
