@@ -10,4 +10,14 @@ In this project we've tried to determine the probablity of getting heads in a co
 
  - Convergance Chart - It shows that how the result stabalizes around 0.5 as the size of sample increases. According to Law of large numbers, as the input sample increases, output sample approaches the actual value.
 
- ## methodology 
+ ## Methodology - 
+
+ - Define the number of coin flips per experiment.
+ - Define the number of experiments to run.
+ - For each flip, generate a random number using Math.random().
+ - If the number is less than 0.5, the outcome is considered Heads, otherwise Tails.
+ - Track the number of heads and calculate the running probability after each flip.
+ - Store the final probability of heads for each experiment.
+ - Visualize the results using charts.
+
+ 
