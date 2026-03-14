@@ -20,4 +20,12 @@ In this project we've tried to determine the probablity of getting heads in a co
  - Store the final probability of heads for each experiment.
  - Visualize the results using charts.
 
- 
+## System Architecture - 
+
+### Components - 
+
+#### simulation.js - 
+
+- Core logic which is performing monte-carlo simulation.
+- Uses a nested loop to generatee random flips.
+- Stores experimental result in an array.
