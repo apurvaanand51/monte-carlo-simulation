@@ -37,6 +37,5 @@ In this project we've tried to determine the probablity of getting heads in a co
 - Using chart.js we have demonstrated the data in form of charts and graphs.
 
 ##### It demonstrates two major dataset -
-
 - Monte Carlo Distribution Chart - It depicts the frequency of appearance of a probability out of total outcomes.
 - Convergance Chart - It depicts how the output stabalizes around actual value as the input increases.
