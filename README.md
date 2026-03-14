@@ -22,6 +22,8 @@ In this project we've tried to determine the probablity of getting heads in a co
 
 ## System Architecture - 
 
+### We have used plain JavaScript to build pure logic behind monte-carlo-simulation and chart.js for graphs and chart as tech stack in this project.
+
 ### Components - 
 
 #### Simulation Moduel (simulation.js) - 
@@ -29,3 +31,5 @@ In this project we've tried to determine the probablity of getting heads in a co
 - Core logic which is performing monte-carlo simulation.
 - Uses a nested loop to generatee random flips.
 - Stores experimental result in an array.
+
+#### Visualization Module (visualization.js) - 
