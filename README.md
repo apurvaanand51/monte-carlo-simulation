@@ -24,7 +24,7 @@ In this project we've tried to determine the probablity of getting heads in a co
 
 ### Components - 
 
-#### simulation.js - 
+#### Simulation Moduel (simulation.js) - 
 
 - Core logic which is performing monte-carlo simulation.
 - Uses a nested loop to generatee random flips.
