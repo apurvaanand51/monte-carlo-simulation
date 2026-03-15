@@ -45,3 +45,7 @@ In this project we've tried to determine the probablity of getting heads in a co
 - Handles user inputs.
 - Triggers the simulation.
 - Passes the results to the visualization module.
+
+#### User Interface - 
+
+- Built using HTML, CSS, and JavaScript.
