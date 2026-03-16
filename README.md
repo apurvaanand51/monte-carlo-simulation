@@ -60,3 +60,9 @@ flipCount = 0
 probabilityHistory = []
 experimentResults = []
 ````
+
+#### Step 2: Run Experiments - 
+
+````
+for experiment = 1 to totalExperiments
+````
