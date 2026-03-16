@@ -49,3 +49,14 @@ In this project we've tried to determine the probablity of getting heads in a co
 #### User Interface - 
 
 - Built using HTML, CSS, and JavaScript.
+
+### Algorithm - 
+
+#### Step 1: Initalize Variables - 
+
+````
+heads = 0
+flipCount = 0
+probabilityHistory = []
+experimentResults = []
+````
