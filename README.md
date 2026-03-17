@@ -81,3 +81,14 @@ If :
 rand < 0.5 → Heads
 rand ≥ 0.5 → Tails
 ````
+
+#### Step 4 - Update Running Probability - 
+
+After Each Flip :
+````
+runningProbability = heads / flipCount
+````
+Store It :
+````
+probabilityHistory.push(runningProbability)
+````
