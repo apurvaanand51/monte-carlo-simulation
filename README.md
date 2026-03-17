@@ -66,3 +66,18 @@ experimentResults = []
 ````
 for experiment = 1 to totalExperiments
 ````
+
+#### Step 3 - Perform Coin Flip - 
+
+````
+for flip = 1 to totalFlips
+````
+Generate Random Flip :
+````
+rand = Math.random()
+````
+If :
+````
+rand < 0.5 → Heads
+rand ≥ 0.5 → Tails
+````
