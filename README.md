@@ -72,11 +72,11 @@ for experiment = 1 to totalExperiments
 ````
 for flip = 1 to totalFlips
 ````
-Generate Random Flip :
+##### Generate Random Flip :
 ````
 rand = Math.random()
 ````
-If :
+##### If :
 ````
 rand < 0.5 → Heads
 rand ≥ 0.5 → Tails
@@ -84,11 +84,11 @@ rand ≥ 0.5 → Tails
 
 #### Step 4 - Update Running Probability - 
 
-After Each Flip :
+##### After Each Flip :
 ````
 runningProbability = heads / flipCount
 ````
-Store It :
+##### Store It :
 ````
 probabilityHistory.push(runningProbability)
 ````
