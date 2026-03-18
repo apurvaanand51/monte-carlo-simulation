@@ -92,3 +92,10 @@ runningProbability = heads / flipCount
 ````
 probabilityHistory.push(runningProbability)
 ````
+
+#### Step 5 - Store Final Experiment Result - 
+
+````
+finalProbability = heads / totalFlips
+experimentResults.push(finalProbability)
+````
