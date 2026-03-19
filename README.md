@@ -99,3 +99,8 @@ probabilityHistory.push(runningProbability)
 finalProbability = heads / totalFlips
 experimentResults.push(finalProbability)
 ````
+
+#### Step 6 - Visualise Result - 
+
+- Convergence chart uses probabilityHistory
+- Distribution chart uses experimentResults
