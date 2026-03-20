@@ -24,7 +24,7 @@ In this project we've tried to determine the probablity of getting heads in a co
 
 ### We have used plain JavaScript to build pure logic behind monte-carlo-simulation and chart.js for graphs and chart as tech stack in this project.
 
-### Components - 
+### Components -
 
 #### Simulation Moduel (simulation.js) - 
 
