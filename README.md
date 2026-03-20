@@ -54,7 +54,7 @@ In this project we've tried to determine the probablity of getting heads in a co
 
 #### Step 1: Initalize Variables - 
 
-````
+````    
 heads = 0
 flipCount = 0
 probabilityHistory = []
@@ -104,3 +104,13 @@ experimentResults.push(finalProbability)
 
 - Convergence chart uses probabilityHistory
 - Distribution chart uses experimentResults
+
+## Results - 
+
+1. Early Fluctuation -
+### At the beginning of the experiment, the probability of heads fluctuates significantly. This occurs because small sample sizes are highly sensitive to random variation.
+````
+First 5 flips
+H T T H H
+Probability = 3/5 = 0.6
+````
