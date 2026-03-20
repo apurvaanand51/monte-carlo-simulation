@@ -107,8 +107,8 @@ experimentResults.push(finalProbability)
 
 ## Results - 
 
-1. Early Fluctuation -
-### At the beginning of the experiment, the probability of heads fluctuates significantly. This occurs because small sample sizes are highly sensitive to random variation.
+### 1. Early Fluctuation -
+#### At the beginning of the experiment, the probability of heads fluctuates significantly. This occurs because small sample sizes are highly sensitive to random variation.
 ````
 First 5 flips
 H T T H H
