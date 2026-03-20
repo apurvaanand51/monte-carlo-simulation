@@ -120,3 +120,14 @@ Probability = 3/5 = 0.6
 #### As the number of flips increases, the running probability begins to stabilize. This demonstrates the Law of Large Numbers, which states:
 - As the number of trials increases, the observed probability approaches the theoretical probability.
 - In this experiment, the probability gradually converges toward 0.5.
+
+### 3. Distribution of experiment results - 
+
+- When multiple experiments are performed, the final probabilities cluster around 0.5.
+- However, due to randomness, individual experiments may produce results such as:
+````
+0.47
+0.52
+0.49
+0.51
+````
