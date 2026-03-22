@@ -144,5 +144,5 @@ Probability = 3/5 = 0.6
 
 ### Credits - 
 
-- [Apurva Anand] (https://github.com/apurvaanand51)
-- [Shifa] (https://github.com/shifasabr786-arch)
+- (Apurva Anand) [https://github.com/apurvaanand51]
+- (Shifa) [https://github.com/shifasabr786-arch]
