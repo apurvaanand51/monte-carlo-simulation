@@ -6,11 +6,11 @@ In this project we've tried to determine the probablity of getting heads in a co
 
 ## Charts that are generated from the obtained data - 
 
-<center><img width="600" height="500" alt="distribution-ss" src="https://github.com/user-attachments/assets/cd1d2636-3ee0-4780-9cf0-998a46829772" /></center>
+<p align="center"><img width="600" height="500" alt="distribution-ss" src="https://github.com/user-attachments/assets/cd1d2636-3ee0-4780-9cf0-998a46829772" /></p>
 
  - Monte Carlo Distribution Chart - It shows the frequency of appearance of a probability in overall coin flips. And as we can see the frequency is often more around 0.5 which staisfies the theoretical estimation.
 
-<center><img width="600" height="500" alt="convergance-ss" src="https://github.com/user-attachments/assets/7eda9496-854c-47ae-96fb-8596f37b551e" /></center>
+<p align="center"><img width="600" height="500" alt="convergance-ss" src="https://github.com/user-attachments/assets/7eda9496-854c-47ae-96fb-8596f37b551e" /></p>
 
  - Convergance Chart - It shows that how the result stabalizes around 0.5 as the size of sample increases. According to Law of large numbers, as the input sample increases, output sample approaches the actual value.
 
