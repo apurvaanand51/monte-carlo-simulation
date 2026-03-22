@@ -131,3 +131,18 @@ Probability = 3/5 = 0.6
 0.49
 0.51
 ````
+
+### 4. Real World Relevance - 
+
+- Qunatitative Finance
+- Option pricing models
+- Weather prediction
+- AI simulations
+- Physics experiments
+
+#### Large-scale simulations allow researchers and financial institutions to estimate probabilities of complex real-world events.
+
+### Credits - 
+
+- [Apurva Anand] (https://github.com/apurvaanand51)
+- [Shifa] (https://github.com/shifasabr786-arch)
